@@ -4,6 +4,11 @@
 	</head>
 	
 	<body>
-		<h1>Hello World</h1>
+		<div class="wrapper">
+			<div class="header">
+				<h1 id="site-title">BeMaths</h1>
+			</div>
+		</div>
+		
 	</body>
 </html>
