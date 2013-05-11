@@ -1,13 +1,12 @@
+<?php include( $_SERVER['DOCUMENT_ROOT'] . '/include/functions.php'); ?>
 <html>
 	<head>
-		<?php include('include/head.php'); ?>
+		<?php my_include('head'); ?>
 	</head>
 	
 	<body>
 		<div class="wrapper">
-			<div class="header">
-				<h1 id="site-title">BeMaths</h1>
-			</div>
+			<?php my_include('header'); ?>
 		</div>
 		
 	</body>
