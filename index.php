@@ -7,7 +7,7 @@
 	<body>
 		<div class="wrapper">
 			<?php my_include('header'); ?>
+			<?php my_include('footer'); ?>
 		</div>
-		
 	</body>
 </html>

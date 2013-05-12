@@ -10,6 +10,9 @@ function my_include($file){
 		case "main_nav":
 			include($_SERVER['DOCUMENT_ROOT'] . '/include/navigation.php');
 			break;
+		case "footer":
+			include($_SERVER['DOCUMENT_ROOT'] . '/include/footer.php');
+			break;
 	}
 }
 function home_url(){

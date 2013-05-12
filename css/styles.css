@@ -8,7 +8,7 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: helvetica, arial;
-	height: 100%;
+	min-height: 100%;
 	background: #ededed url('images/grey-bg.jpg');
 }
 .wrapper{
@@ -16,7 +16,7 @@ body{
 	padding: 20px;
 	margin: 0 auto;
 	background: white;
-	height: 100%;
+	min-height: 100%;
 	-webkit-box-shadow:  0px 0px 20px -2px #000;
             box-shadow:  0px 0px 20px -2px #000;
 }
@@ -64,4 +64,12 @@ h1#site-title a{
 	font-size: 23px;
 	font-size: 2.3rem;
 	padding: 5px 10px;
+}
+
+/* footer */
+.footer{
+	padding: 10px 0;
+	margin-top: 20px;
+	clear: both;
+	border-top: 1px dotted #333;
 }
