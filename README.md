@@ -1,4 +1,4 @@
-site
+My first website
 ====
 
-GitHub repository for my new website
+GitHub repository for my first website
